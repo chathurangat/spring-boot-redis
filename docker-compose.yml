@@ -6,8 +6,6 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-    networks:
-      - ott-network
     ports:
       - 8087:8080
     volumes:
